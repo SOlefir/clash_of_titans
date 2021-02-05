@@ -1,16 +1,9 @@
-from titan import Titan
 from random import randrange
-from weapon import Weapon
 
+import bcolors as bcolors
 
-def challenge_rivals() -> list():
-    # инициализировать тут титанов
-    pass
-
-
-def arena():
-    # кто против кого и сколько раз. брать из переменных
-    pass
+from parse_csv import ChallengeRivals
+from titan import Titan
 
 
 def dice6():
@@ -126,4 +119,27 @@ class Fight:
 
 
 if __name__ == '__main__':
-    pass
+
+    def show_res(arr):
+        return ({
+                "death": round(len([x for x in arr if x == "death"]) / len(arr), 2) * 100,
+                "fall": round(len([x for x in arr if x == "fall"]) / len(arr), 2) * 100,
+                "wound": round(len([x for x in arr if x == "wound"]) / len(arr), 2) * 100,
+                "no damage": round(len([x for x in arr if x == "no damage"]) / len(arr), 2) * 100,
+            })
+
+    titans = ChallengeRivals('stats.csv').titans
+    for atk in range(len(titans)):
+        for dnd in range(len(titans)):
+            main_arena = Fight(attacking=titans[atk], defending=titans[dnd])
+            basic_results = [main_arena.basic() for _ in range(100)]
+            advanced_results = [main_arena.advanced() for _ in range(100)]
+            old_results = [main_arena.old() for _ in range(100)]
+
+            print(f'{bcolors.ERR}{titans[atk].name}{bcolors.ENDC} VS {bcolors.HEADER}{titans[dnd].name}{bcolors.ENDC}')
+            print(
+                f'Basic: {show_res(basic_results)} \n'
+                f'Advanced: {show_res(advanced_results)} \n'
+                f'Old: {show_res(old_results)} \n'
+                '______________________________________________'
+            )
