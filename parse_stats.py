@@ -16,7 +16,8 @@ class ChallengeRivals:
             for line in csv.DictReader(csv_file):
                 self._get_titans(line)
 
-    def __get_weapons(self, line: dict) -> list:
+    @staticmethod
+    def __get_weapons(line: dict) -> list:
         weapons = list()
         for count in range(int(line['weapons'])):
             weapons.append(

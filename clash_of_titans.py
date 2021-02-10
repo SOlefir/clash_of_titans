@@ -1,8 +1,6 @@
 from random import randrange
 
-import bcolors as bcolors
-
-from parse_csv import ChallengeRivals
+from parse_stats import ChallengeRivals
 from titan import Titan
 
 
@@ -18,8 +16,8 @@ class Fight:
 
         self.count = 0
 
-    @classmethod
-    def throws_check(cls, amount, param, modifier=0, reverse=False):
+    @staticmethod
+    def throws_check(amount, param, modifier=0, reverse=False):
         throws = [dice6() + modifier for _ in range(amount)]
         if not reverse:
             checks = [x for x in throws if x > param]
@@ -53,8 +51,8 @@ class Fight:
 
         return "death" if max(death_checks) >= 6 else "fall" if max(death_checks) >= 3 else "wound"
 
-    @classmethod
-    def weapon_quality_check(cls, weapon):
+    @staticmethod
+    def weapon_quality_check(weapon):
         if weapon.quality == 2:
             return -1
         if weapon.quality == 0:
@@ -93,8 +91,8 @@ class Fight:
     def old(self):
         attack_weapon = self.attacking_titan.weapons[0]
         defence_weapon = self.defending_titan.weapons[0]
-        attack_number = self.attacking_titan.attack + 2 if attack_weapon.quality == 2 else 1
-        defence_number = self.defending_titan.attack + 2 if defence_weapon.quality == 2 else 1
+        attack_number = self.attacking_titan.attack + (2 if attack_weapon.quality == 2 else 1)
+        defence_number = self.defending_titan.attack + (2 if defence_weapon.quality == 2 else 1)
         attack_throws = [dice6() for _ in range(attack_number)]
         defence_throws = [dice6() for _ in range(defence_number)]
 
@@ -136,7 +134,7 @@ if __name__ == '__main__':
             advanced_results = [main_arena.advanced() for _ in range(100)]
             old_results = [main_arena.old() for _ in range(100)]
 
-            print(f'{bcolors.ERR}{titans[atk].name}{bcolors.ENDC} VS {bcolors.HEADER}{titans[dnd].name}{bcolors.ENDC}')
+            print(f'{titans[atk].name} hit {titans[dnd].name}')
             print(
                 f'Basic: {show_res(basic_results)} \n'
                 f'Advanced: {show_res(advanced_results)} \n'
