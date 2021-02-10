@@ -1,0 +1,125 @@
+Attack Titan hits Attack Titan
+Basic: {'death': 9.0, 'fall': 13.0, 'wound': 3.0, 'no damage': 75.0} 
+Advanced: {'death': 17.0, 'fall': 13.0, 'wound': 6.0, 'no damage': 64.0} 
+Old: {'death': 1.0, 'fall': 6.0, 'wound': 1.0, 'no damage': 92.0} 
+______________________________________________
+Attack Titan hits Beast Titan
+Basic: {'death': 21.0, 'fall': 40.0, 'wound': 16.0, 'no damage': 23.0} 
+Advanced: {'death': 31.0, 'fall': 36.0, 'wound': 2.0, 'no damage': 31.0} 
+Old: {'death': 13.0, 'fall': 17.0, 'wound': 9.0, 'no damage': 61.0} 
+______________________________________________
+Attack Titan hits Armored Titan
+Basic: {'death': 32.0, 'fall': 39.0, 'wound': 9.0, 'no damage': 20.0} 
+Advanced: {'death': 42.0, 'fall': 34.0, 'wound': 2.0, 'no damage': 22.0} 
+Old: {'death': 37.0, 'fall': 26.0, 'wound': 2.0, 'no damage': 35.0} 
+______________________________________________
+Attack Titan hits Female Titan
+Basic: {'death': 28.000000000000004, 'fall': 50.0, 'wound': 6.0, 'no damage': 16.0} 
+Advanced: {'death': 50.0, 'fall': 23.0, 'wound': 2.0, 'no damage': 25.0} 
+Old: {'death': 34.0, 'fall': 35.0, 'wound': 5.0, 'no damage': 26.0} 
+______________________________________________
+Attack Titan hits Cart Titan
+Basic: {'death': 38.0, 'fall': 36.0, 'wound': 5.0, 'no damage': 21.0} 
+Advanced: {'death': 57.99999999999999, 'fall': 25.0, 'wound': 1.0, 'no damage': 16.0} 
+Old: {'death': 37.0, 'fall': 31.0, 'wound': 3.0, 'no damage': 28.999999999999996} 
+______________________________________________
+Beast Titan hits Attack Titan
+Basic: {'death': 5.0, 'fall': 12.0, 'wound': 3.0, 'no damage': 80.0} 
+Advanced: {'death': 5.0, 'fall': 5.0, 'wound': 2.0, 'no damage': 88.0} 
+Old: {'death': 1.0, 'fall': 0.0, 'wound': 0.0, 'no damage': 99.0} 
+______________________________________________
+Beast Titan hits Beast Titan
+Basic: {'death': 15.0, 'fall': 31.0, 'wound': 17.0, 'no damage': 37.0} 
+Advanced: {'death': 14.000000000000002, 'fall': 13.0, 'wound': 2.0, 'no damage': 71.0} 
+Old: {'death': 3.0, 'fall': 16.0, 'wound': 8.0, 'no damage': 73.0} 
+______________________________________________
+Beast Titan hits Armored Titan
+Basic: {'death': 24.0, 'fall': 38.0, 'wound': 9.0, 'no damage': 28.999999999999996} 
+Advanced: {'death': 26.0, 'fall': 23.0, 'wound': 0.0, 'no damage': 51.0} 
+Old: {'death': 23.0, 'fall': 13.0, 'wound': 3.0, 'no damage': 61.0} 
+______________________________________________
+Beast Titan hits Female Titan
+Basic: {'death': 33.0, 'fall': 37.0, 'wound': 2.0, 'no damage': 28.000000000000004} 
+Advanced: {'death': 34.0, 'fall': 30.0, 'wound': 1.0, 'no damage': 35.0} 
+Old: {'death': 21.0, 'fall': 42.0, 'wound': 3.0, 'no damage': 34.0} 
+______________________________________________
+Beast Titan hits Cart Titan
+Basic: {'death': 21.0, 'fall': 39.0, 'wound': 3.0, 'no damage': 37.0} 
+Advanced: {'death': 41.0, 'fall': 28.999999999999996, 'wound': 0.0, 'no damage': 30.0} 
+Old: {'death': 16.0, 'fall': 30.0, 'wound': 9.0, 'no damage': 45.0} 
+______________________________________________
+Armored Titan hits Attack Titan
+Basic: {'death': 0.0, 'fall': 0.0, 'wound': 0.0, 'no damage': 100.0} 
+Advanced: {'death': 0.0, 'fall': 0.0, 'wound': 0.0, 'no damage': 100.0} 
+Old: {'death': 0.0, 'fall': 0.0, 'wound': 0.0, 'no damage': 100.0} 
+______________________________________________
+Armored Titan hits Beast Titan
+Basic: {'death': 0.0, 'fall': 2.0, 'wound': 1.0, 'no damage': 97.0} 
+Advanced: {'death': 0.0, 'fall': 0.0, 'wound': 0.0, 'no damage': 100.0} 
+Old: {'death': 0.0, 'fall': 1.0, 'wound': 0.0, 'no damage': 99.0} 
+______________________________________________
+Armored Titan hits Armored Titan
+Basic: {'death': 10.0, 'fall': 19.0, 'wound': 5.0, 'no damage': 66.0} 
+Advanced: {'death': 3.0, 'fall': 10.0, 'wound': 3.0, 'no damage': 84.0} 
+Old: {'death': 4.0, 'fall': 9.0, 'wound': 4.0, 'no damage': 83.0} 
+______________________________________________
+Armored Titan hits Female Titan
+Basic: {'death': 6.0, 'fall': 18.0, 'wound': 13.0, 'no damage': 63.0} 
+Advanced: {'death': 7.000000000000001, 'fall': 15.0, 'wound': 2.0, 'no damage': 76.0} 
+Old: {'death': 9.0, 'fall': 19.0, 'wound': 8.0, 'no damage': 64.0} 
+______________________________________________
+Armored Titan hits Cart Titan
+Basic: {'death': 8.0, 'fall': 19.0, 'wound': 7.000000000000001, 'no damage': 66.0} 
+Advanced: {'death': 7.000000000000001, 'fall': 16.0, 'wound': 9.0, 'no damage': 68.0} 
+Old: {'death': 4.0, 'fall': 16.0, 'wound': 9.0, 'no damage': 71.0} 
+______________________________________________
+Female Titan hits Attack Titan
+Basic: {'death': 0.0, 'fall': 0.0, 'wound': 0.0, 'no damage': 100.0} 
+Advanced: {'death': 0.0, 'fall': 0.0, 'wound': 0.0, 'no damage': 100.0} 
+Old: {'death': 0.0, 'fall': 0.0, 'wound': 0.0, 'no damage': 100.0} 
+______________________________________________
+Female Titan hits Beast Titan
+Basic: {'death': 0.0, 'fall': 0.0, 'wound': 0.0, 'no damage': 100.0} 
+Advanced: {'death': 0.0, 'fall': 0.0, 'wound': 0.0, 'no damage': 100.0} 
+Old: {'death': 0.0, 'fall': 0.0, 'wound': 0.0, 'no damage': 100.0} 
+______________________________________________
+Female Titan hits Armored Titan
+Basic: {'death': 0.0, 'fall': 3.0, 'wound': 5.0, 'no damage': 92.0} 
+Advanced: {'death': 0.0, 'fall': 0.0, 'wound': 1.0, 'no damage': 99.0} 
+Old: {'death': 2.0, 'fall': 3.0, 'wound': 2.0, 'no damage': 93.0} 
+______________________________________________
+Female Titan hits Female Titan
+Basic: {'death': 2.0, 'fall': 6.0, 'wound': 4.0, 'no damage': 88.0} 
+Advanced: {'death': 2.0, 'fall': 2.0, 'wound': 2.0, 'no damage': 94.0} 
+Old: {'death': 1.0, 'fall': 5.0, 'wound': 4.0, 'no damage': 90.0} 
+______________________________________________
+Female Titan hits Cart Titan
+Basic: {'death': 2.0, 'fall': 10.0, 'wound': 2.0, 'no damage': 86.0} 
+Advanced: {'death': 0.0, 'fall': 9.0, 'wound': 1.0, 'no damage': 90.0} 
+Old: {'death': 1.0, 'fall': 5.0, 'wound': 3.0, 'no damage': 91.0} 
+______________________________________________
+Cart Titan hits Attack Titan
+Basic: {'death': 0.0, 'fall': 0.0, 'wound': 0.0, 'no damage': 100.0} 
+Advanced: {'death': 0.0, 'fall': 0.0, 'wound': 0.0, 'no damage': 100.0} 
+Old: {'death': 0.0, 'fall': 0.0, 'wound': 0.0, 'no damage': 100.0} 
+______________________________________________
+Cart Titan hits Beast Titan
+Basic: {'death': 0.0, 'fall': 0.0, 'wound': 0.0, 'no damage': 100.0} 
+Advanced: {'death': 0.0, 'fall': 0.0, 'wound': 0.0, 'no damage': 100.0} 
+Old: {'death': 0.0, 'fall': 0.0, 'wound': 0.0, 'no damage': 100.0} 
+______________________________________________
+Cart Titan hits Armored Titan
+Basic: {'death': 2.0, 'fall': 3.0, 'wound': 4.0, 'no damage': 91.0} 
+Advanced: {'death': 0.0, 'fall': 0.0, 'wound': 0.0, 'no damage': 100.0} 
+Old: {'death': 0.0, 'fall': 2.0, 'wound': 0.0, 'no damage': 98.0} 
+______________________________________________
+Cart Titan hits Female Titan
+Basic: {'death': 2.0, 'fall': 4.0, 'wound': 2.0, 'no damage': 92.0} 
+Advanced: {'death': 0.0, 'fall': 1.0, 'wound': 1.0, 'no damage': 98.0} 
+Old: {'death': 1.0, 'fall': 4.0, 'wound': 3.0, 'no damage': 92.0} 
+______________________________________________
+Cart Titan hits Cart Titan
+Basic: {'death': 2.0, 'fall': 2.0, 'wound': 3.0, 'no damage': 93.0} 
+Advanced: {'death': 0.0, 'fall': 0.0, 'wound': 2.0, 'no damage': 98.0} 
+Old: {'death': 1.0, 'fall': 2.0, 'wound': 2.0, 'no damage': 95.0} 
+______________________________________________

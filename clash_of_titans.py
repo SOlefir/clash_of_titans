@@ -134,7 +134,7 @@ if __name__ == '__main__':
             advanced_results = [main_arena.advanced() for _ in range(100)]
             old_results = [main_arena.old() for _ in range(100)]
 
-            print(f'{titans[atk].name} hit {titans[dnd].name}')
+            print(f'{titans[atk].name} hits {titans[dnd].name}')
             print(
                 f'Basic: {show_res(basic_results)} \n'
                 f'Advanced: {show_res(advanced_results)} \n'
